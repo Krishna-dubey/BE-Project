@@ -4,6 +4,6 @@ app=Flask(__name__)
 
 @app.route('/')
 def landing():
-    return "Landing Page"
+    return "This is Landing Page"
 
 app.run(debug=True)
